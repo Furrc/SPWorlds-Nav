@@ -1,10 +1,8 @@
 package ru.furrc.spwn.mixin;
 
-import io.wispforest.owo.util.RegistryAccess;
 import net.kyori.adventure.text.serializer.gson.*;
 import net.minecraft.client.network.message.*;
 import net.minecraft.registry.DynamicRegistryManager;
-import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.text.*;
 import org.spongepowered.asm.mixin.*;
 import org.spongepowered.asm.mixin.injection.*;
@@ -21,9 +19,6 @@ public class MessageHandlerMixin {
         Matcher matcher = pattern.matcher(content);
 
         if (matcher.find()) {
-
-
-
             message = Text.Serialization.fromJson(
                     GsonComponentSerializer.gson().serialize(
                             message.asComponent().replaceText(builder ->
