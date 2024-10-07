@@ -1,0 +1,33 @@
+{
+  "yacl3.config.spwn:config.category.main": "Main",
+  "yacl3.config.spwn:config.category.visual": "Visual",
+
+  "yacl3.config.spwn:config.category.visual.group.navbar": "Navbar",
+  "yacl3.config.spwn:config.category.visual.group.red": "Red thread",
+  "yacl3.config.spwn:config.category.visual.group.green": "Green thread",
+  "yacl3.config.spwn:config.category.visual.group.yellow": "Yellow thread",
+  "yacl3.config.spwn:config.category.visual.group.blue": "Blue thread",
+  "yacl3.config.spwn:config.category.visual.group.spawn": "Spawn",
+
+  "yacl3.config.spwn:config.showInOverworld": "Show in overworld",
+  "yacl3.config.spwn:config.showInNether": "Show in nether",
+  "yacl3.config.spwn:config.showInEnd": "Show in end",
+  "yacl3.config.spwn:config.showSpawn": "Show spawn",
+  "yacl3.config.spwn:config.navbarX": "Navbar X (in percentage)",
+  "yacl3.config.spwn:config.navbarY": "Navbar Y (in percentage)",
+  "yacl3.config.spwn:config.navbarColor": "Navbar color",
+  "yacl3.config.spwn:config.redName": "Display name",
+  "yacl3.config.spwn:config.redColor": "Color",
+  "yacl3.config.spwn:config.redSeparator": "Separator",
+  "yacl3.config.spwn:config.greenName": "Display name",
+  "yacl3.config.spwn:config.greenColor": "Color",
+  "yacl3.config.spwn:config.greenSeparator": "Separator",
+  "yacl3.config.spwn:config.yellowName": "Display name",
+  "yacl3.config.spwn:config.yellowColor": "Color",
+  "yacl3.config.spwn:config.yellowSeparator": "Separator",
+  "yacl3.config.spwn:config.blueName": "Display name",
+  "yacl3.config.spwn:config.blueColor": "Color",
+  "yacl3.config.spwn:config.blueSeparator": "Separator",
+  "yacl3.config.spwn:config.spawnName": "Display name",
+  "yacl3.config.spwn:config.spawnColor": "Color"
+}
