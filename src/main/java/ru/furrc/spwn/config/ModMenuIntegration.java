@@ -1,4 +1,4 @@
-package ua.mei.spwn.config;
+package ru.furrc.spwn.config;
 
 import com.terraformersmc.modmenu.api.*;
 

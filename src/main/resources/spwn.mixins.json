@@ -1,6 +1,6 @@
 {
   "required": true,
-  "package": "ua.mei.spwn.mixin",
+  "package": "ru.furrc.spwn.mixin",
   "compatibilityLevel": "JAVA_17",
   "client": [
     "ClientPlayNetworkHandlerMixin",

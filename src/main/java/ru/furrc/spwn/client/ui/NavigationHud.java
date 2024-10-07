@@ -1,8 +1,8 @@
-package ua.mei.spwn.client.ui;
+package ru.furrc.spwn.client.ui;
 
 import io.wispforest.owo.ui.container.*;
 import io.wispforest.owo.ui.core.*;
-import ua.mei.spwn.client.*;
+import ru.furrc.spwn.client.SPMath;
 
 public class NavigationHud extends FlowLayout {
     public NavigationHud() {

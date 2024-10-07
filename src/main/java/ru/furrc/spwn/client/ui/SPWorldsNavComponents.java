@@ -1,10 +1,10 @@
-package ua.mei.spwn.client.ui;
+package ru.furrc.spwn.client.ui;
 
 import com.mojang.blaze3d.systems.*;
 import io.wispforest.owo.ui.core.*;
 import io.wispforest.owo.ui.util.*;
 import net.minecraft.util.*;
-import ua.mei.spwn.config.*;
+import ru.furrc.spwn.config.SPWorldsNavConfig;
 
 public interface SPWorldsNavComponents {
     Surface BEDROCK_PANEL = (context, component) -> {

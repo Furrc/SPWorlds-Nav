@@ -1,4 +1,4 @@
-package ua.mei.spwn.config;
+package ru.furrc.spwn.config;
 
 import dev.isxander.yacl3.api.controller.*;
 import net.minecraft.text.*;

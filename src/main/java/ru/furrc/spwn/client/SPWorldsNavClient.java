@@ -1,10 +1,10 @@
-package ua.mei.spwn.client;
+package ru.furrc.spwn.client;
 
 import io.wispforest.owo.ui.hud.*;
 import net.fabricmc.api.*;
 import net.minecraft.util.*;
-import ua.mei.spwn.client.ui.*;
-import ua.mei.spwn.config.*;
+import ru.furrc.spwn.client.ui.NavigationHud;
+import ru.furrc.spwn.config.SPWorldsNavConfig;
 
 public class SPWorldsNavClient implements ClientModInitializer {
     @Override

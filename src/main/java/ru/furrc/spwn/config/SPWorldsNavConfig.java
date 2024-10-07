@@ -1,4 +1,4 @@
-package ua.mei.spwn.config;
+package ru.furrc.spwn.config;
 
 import com.google.gson.*;
 import dev.isxander.yacl3.config.v2.api.*;

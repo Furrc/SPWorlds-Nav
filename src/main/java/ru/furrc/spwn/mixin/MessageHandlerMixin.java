@@ -1,11 +1,11 @@
-package ua.mei.spwn.mixin;
+package ru.furrc.spwn.mixin;
 
 import net.kyori.adventure.text.serializer.gson.*;
 import net.minecraft.client.network.message.*;
 import net.minecraft.text.*;
 import org.spongepowered.asm.mixin.*;
 import org.spongepowered.asm.mixin.injection.*;
-import ua.mei.spwn.client.*;
+import ru.furrc.spwn.client.SPMath;
 
 import java.util.regex.*;
 

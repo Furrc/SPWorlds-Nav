@@ -1,4 +1,4 @@
-package ua.mei.spwn.client;
+package ru.furrc.spwn.client;
 
 import io.wispforest.owo.ui.core.*;
 import net.kyori.adventure.text.*;
@@ -10,7 +10,7 @@ import net.minecraft.client.network.*;
 import net.minecraft.registry.*;
 import net.minecraft.util.*;
 import net.minecraft.world.*;
-import ua.mei.spwn.config.*;
+import ru.furrc.spwn.config.SPWorldsNavConfig;
 
 public class SPMath {
     public static Thread thread(double x, double z, boolean spawn) {

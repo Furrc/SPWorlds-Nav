@@ -1,12 +1,12 @@
-package ua.mei.spwn.client.ui;
+package ru.furrc.spwn.client.ui;
 
 import io.wispforest.owo.ui.component.*;
 import net.minecraft.client.*;
 import net.minecraft.client.network.*;
 import net.minecraft.text.*;
 import net.minecraft.world.*;
-import ua.mei.spwn.client.*;
-import ua.mei.spwn.client.Thread;
+import ru.furrc.spwn.client.SPMath;
+import ru.furrc.spwn.client.Thread;
 
 public class DynamicLabel extends LabelComponent {
     public DynamicLabel() {

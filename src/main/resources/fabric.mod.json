@@ -5,29 +5,29 @@
   "name": "SPWorlds Nav",
   "description": "",
   "authors": [
-    "MeiNanziiii"
+    "Furrc"
   ],
   "contact": {
-    "homepage": "https://github.com/Miracle-Studio/SPWorlds-Nav",
-    "sources": "https://github.com/Miracle-Studio/SPWorlds-Nav",
-    "issues": "https://github.com/Miracle-Studio/SPWorlds-Nav/issues"
+    "homepage": "https://github.com/Furrc/SPWorlds-Nav",
+    "sources": "https://github.com/Furrc/SPWorlds-Nav",
+    "issues": "https://github.com/Furrc/SPWorlds-Nav/issues"
   },
   "license": "MIT",
   "icon": "assets/spwn/icon.png",
   "environment": "client",
   "entrypoints": {
     "client": [
-      "ua.mei.spwn.client.SPWorldsNavClient"
+      "ru.furrc.spwn.client.SPWorldsNavClient"
     ],
     "modmenu": [
-      "ua.mei.spwn.config.ModMenuIntegration"
+      "ru.furrc.spwn.config.ModMenuIntegration"
     ]
   },
   "custom": {
     "modmenu": {
       "links": {
         "modmenu.discord": "https://discord.gg/Jc4pqjQdBf",
-        "modmenu.github_releases": "https://github.com/Miracle-Studio/SPWorlds-Nav/releases",
+        "modmenu.github_releases": "https://github.com/Furrc/SPWorlds-Nav/releases",
         "modmenu.modrinth": "https://modrinth.com/mod/spwn"
       }
     }

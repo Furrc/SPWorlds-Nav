@@ -1,7 +1,7 @@
-package ua.mei.spwn.client;
+package ru.furrc.spwn.client;
 
 import net.minecraft.text.*;
-import ua.mei.spwn.config.*;
+import ru.furrc.spwn.config.SPWorldsNavConfig;
 
 import java.awt.*;
 

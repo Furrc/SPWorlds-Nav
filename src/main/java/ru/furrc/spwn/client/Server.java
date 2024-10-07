@@ -1,4 +1,4 @@
-package ua.mei.spwn.client;
+package ru.furrc.spwn.client;
 
 import net.minecraft.client.*;
 import net.minecraft.client.network.*;
