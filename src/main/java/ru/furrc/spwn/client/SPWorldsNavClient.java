@@ -10,6 +10,6 @@ public class SPWorldsNavClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         SPWorldsNavConfig.load();
-        Hud.add(new Identifier("spwn", "navigation_hud"), NavigationHud::new);
+        Hud.add(Identifier.of("spwn", "navigation_hud"), NavigationHud::new);
     }
 }

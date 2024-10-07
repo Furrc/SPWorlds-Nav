@@ -13,7 +13,7 @@ import java.awt.Color;
 
 public class SPWorldsNavConfig {
     public static ConfigClassHandler<SPWorldsNavConfig> HANDLER = ConfigClassHandler.createBuilder(SPWorldsNavConfig.class)
-            .id(new Identifier("spwn", "config"))
+            .id(Identifier.of("spwn", "config"))
             .serializer(config -> GsonConfigSerializerBuilder.create(config)
                     .setPath(FabricLoader.getInstance().getConfigDir().resolve("spwn-config.json"))
                     .setJson5(true)

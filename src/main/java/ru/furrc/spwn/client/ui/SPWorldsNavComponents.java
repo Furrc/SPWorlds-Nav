@@ -12,7 +12,7 @@ public interface SPWorldsNavComponents {
 
         RenderSystem.enableBlend();
         RenderSystem.setShaderColor(config.navbarColor.getRed() / 255f, config.navbarColor.getGreen() / 255f, config.navbarColor.getBlue() / 255f, config.navbarColor.getAlpha() / 255f);
-        NinePatchTexture.draw(new Identifier("spwn", "panel/bedrock"), context, component);
+        NinePatchTexture.draw(Identifier.of("spwn", "panel/bedrock"), context, component);
         RenderSystem.setShaderColor(1f, 1f, 1f, 1f);
         RenderSystem.disableBlend();
     };

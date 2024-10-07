@@ -26,7 +26,6 @@
   "custom": {
     "modmenu": {
       "links": {
-        "modmenu.discord": "https://discord.gg/Jc4pqjQdBf",
         "modmenu.github_releases": "https://github.com/Furrc/SPWorlds-Nav/releases",
         "modmenu.modrinth": "https://modrinth.com/mod/spwn"
       }
@@ -37,10 +36,10 @@
   ],
   "depends": {
     "fabric": "*",
-    "minecraft": ">=1.20.4",
-    "yet_another_config_lib_v3": ">=3.3.2+1.20.4"
+    "minecraft": ">=1.21.1",
+    "yet_another_config_lib_v3": ">=3.5.0+1.21"
   },
   "suggests": {
-    "modmenu": ">=9.0.0"
+    "modmenu": ">=11.0.0"
   }
 }
